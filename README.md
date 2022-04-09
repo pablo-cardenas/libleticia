@@ -3,6 +3,10 @@
 This library do the heavy computations for
 [leticia](https://gitlab.com/pablo-cardenas/leticia).
 
+## Requirements
+
+ - openmp
+
 
 ## Installation
 
