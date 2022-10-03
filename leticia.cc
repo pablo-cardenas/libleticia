@@ -12,7 +12,7 @@ neighbors(int u, int n_row, int n_col)
     vector<int> ret;
 
     int u_row = u / n_col;
-    int u_col = u % n_row;
+    int u_col = u % n_col;
 
     for (auto v_row : { u_row + 1, u_row - 1 }) {
         if (0 <= v_row && v_row < n_row) {
